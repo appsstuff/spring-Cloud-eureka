@@ -3,7 +3,7 @@ spring:
     name: client3
   cloud:
     config:
-      uri:  http://localhost:8008
+      uri:  http://config-server:8008
       enabled: true      
       fail-fast: true
 management:

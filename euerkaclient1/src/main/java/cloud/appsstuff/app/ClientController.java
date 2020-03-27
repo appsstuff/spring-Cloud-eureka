@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ClientController {
 
-	@Value("${client.words}")	
+	@Value("${client.words:Could not read centeral configuration}")	
 	private String clientWords;
 	
 	@RequestMapping(value = "/",method = RequestMethod.GET)

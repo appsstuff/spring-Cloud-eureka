@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: client4
+  cloud:
+    config:
+      uri:  http://localhost:8008
+      enabled: true      
+      fail-fast: true
+management:
+ endpoints:
+   web:
+    exposure:
+     include: "*"

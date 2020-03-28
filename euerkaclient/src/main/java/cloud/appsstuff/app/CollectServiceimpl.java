@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import cloud.appsstuff.app.dao.FeignClient1;
 import cloud.appsstuff.app.dao.FeignClient2;
 import cloud.appsstuff.app.dao.FeignClient3;
-import cloud.appsstuff.app.dao.FeignClient4;
+import cloud.appsstuff.app.dao.FeignClient4; 
 import cloud.appsstuff.app.dao.FeignClient5;
 @Service
 public class CollectServiceimpl implements CollectService {

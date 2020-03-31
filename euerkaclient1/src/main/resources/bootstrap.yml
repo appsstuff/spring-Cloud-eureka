@@ -6,8 +6,3 @@ spring:
       uri:  http://config-server:8008
       enabled: true      
       fail-fast: true
-management:
- endpoints:
-   web:
-    exposure:
-     include: "*"
